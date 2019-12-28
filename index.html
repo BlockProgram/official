@@ -3,14 +3,30 @@ layout: default
 ---
 
 <div class="home-hero">
-  <div class="hero-content">
 
-  HERO: Nice animated background + Catchy sentence + Social links
+  <div class="hero-content">
+    <p><span>Bertrand</span>, Apprentice Front-End Developer</p>
+    <ul class="social-list hero-social-links">
+      {% include social-links.html %}
+    </ul>
   </div>
+
+  <div class="waveWrapper waveAnimation">
+    <div class="waveWrapperInner bgTop">
+      <div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
+    </div>
+    <div class="waveWrapperInner bgMiddle">
+      <div class="wave waveMiddle" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')"></div>
+    </div>
+    <div class="waveWrapperInner bgBottom">
+      <div class="wave waveBottom" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')"></div>
+    </div>
+  </div>
+
 </div>
 
 <div class="home-presentation">
- PRESENTATION: Hey it's Mike, coding student
+ <p>PRESENTATION: My coding journey Hey it's Mike, coding student</p>
 </div>
 
 <div class="home-roadmap">
