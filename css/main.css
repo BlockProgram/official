@@ -54,19 +54,28 @@ html {
 /* HEADER STYLES */
 .header {
   height: 10vh;
+  overflow: hidden;
+  position: relative;
   width: 100%;
   z-index: 20;
 }
 .header-nav {
+  padding-top: 0.8vh;
   text-align: center;
-  padding: 2vh 60px 0 0;
 }
-.header-nav li {
+.header-nav a {
+  color: green; 
+  text-align: center;
+}
+/* .header-nav li {
+  background-color: red;
   display: inline-block;
   background-color: #333;
-  margin-left: 2vw;
+  margin: 18px 2vw;
+  padding: 5px;
   text-transform: uppercase;
-}
+  border-radius: 30px;
+} */
 .header-nav a {
   color: #fff;
   text-decoration: none;
@@ -103,6 +112,50 @@ html {
   padding: 30px 10px 0;
 }
 
+/* PRESENTATION STYLES */
+.home-roadmap {
+  height: 10vh;
+  font-size: 1.4em;
+  text-align: center;
+  line-height: 1.25;
+}
+
+/* PORTFOLIO STYLES */
+.home-portfolio {
+  border-bottom: 1px solid rgba(50, 50, 50, 0.5);
+  border-top: 1px solid rgba(50, 50, 50, 0.5);
+}
+
+.square1 {
+  display: inline-block;
+  height: 30vh;
+  width: 30vh;
+  background-color: #333;
+  margin-bottom: 1vh;
+}
+.square2 {
+  display: inline-block;
+  height: 30vh;
+  width: 30vh;
+  background-color: #333;
+  margin-bottom: 1vh;
+}
+.square3 {
+  display: inline-block;
+  height: 30vh;
+  width: 30vh;
+  background-color: #333;
+  margin-bottom: 1vh;
+}
+.square4 {
+  display: inline-block;
+  height: 30vh;
+  width: 30vh;
+  background-color: #333;
+  margin-bottom: 1vh;
+}
+
+
 /* ANIMATED BACKGROUND STYLE */
 @keyframes move_wave {
     0% {
@@ -116,6 +169,7 @@ html {
     }
 }
 .waveWrapper {
+    /* background-color: red; */
     overflow: hidden;
     position: absolute;
     left: 0;
@@ -128,7 +182,7 @@ html {
     position: absolute;
     width: 100%;
     overflow: hidden;
-    height: 90%;
+    height: 91%;
     bottom: -1px;
     background-image: linear-gradient(to top, #46c8f0 30%, #0c7ff2 80%);
 }
