@@ -46,44 +46,76 @@ a img {
 }
 /* END RESET*/
 
+/* GLOBAL STYLES */
 html {
   font-family: 'Roboto', sans-serif, arial;
 }
 
-
 /* HEADER STYLES */
 .header {
   height: 10vh;
-  overflow: hidden;
   position: relative;
   width: 100%;
-  z-index: 20;
+  z-index: 50;
 }
 .header-nav {
-  padding-top: 0.8vh;
-  text-align: center;
+  bottom: 50%;
+  height: 8vh;
+  right: 50%;
+  position: absolute;
+  transform: translate(50%, 50%);
+  width: 55vh;
 }
 .header-nav a {
-  color: green; 
+  float: left;
+  font-size: 20px;
+  font-weight: 900;
+  color: #000;
   text-align: center;
-}
-/* .header-nav li {
-  background-color: red;
-  display: inline-block;
-  background-color: #333;
-  margin: 18px 2vw;
-  padding: 5px;
-  text-transform: uppercase;
-  border-radius: 30px;
-} */
-.header-nav a {
-  color: #fff;
   text-decoration: none;
+  padding: 14px 16px;
+}
+.header-nav a:hover, dropdown:hover  {
+  background-color: #000;
+  color: #fff;
+}
+.dropdown {
+  float: left;
+}
+.dropdown .dropdown-trigger {
+  background-color: inherit;
+  border: none;
+  font-family: inherit;
+  margin: 0;
+  outline: none;
+
+}
+.dropdown-content {
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  display: none;
+  min-width: 160px;
+  top: 75%;
+  position: absolute;
+  z-index: 30;
+}
+.dropdown-content a {
+  background-color: #;
+  display: block;
+  float: none;
+  font-size: 16px;
+  padding: 12px 16px;
+  text-align: left;
+  text-decoration: none;
+  z-index: 30;
+}
+.dropdown-content:hover  {
+  background-color: #fff;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color: #fff;
 }
 
-.head-logo {
-  font-size: 5vh;
-}
 
 /* HERO STYLES */
 .home-hero {
@@ -110,6 +142,9 @@ html {
 }
 .hero-content .social-list li {
   padding: 30px 10px 0;
+}
+.fa-github:hover, .fa-linkedin:hover, .fa-envelope:hover  {
+ color: #fff;
 }
 
 /* PRESENTATION STYLES */
