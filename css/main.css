@@ -126,9 +126,9 @@ html {
 }
 .hero-content {
   color: #fff;
-  font-size: 2.75em ;
+  font-size: 2.5em ;
   text-align: center;
-  padding: 40vh 0 ;
+  padding: 35vh 0;
   position: relative;
   z-index: 20;
 }
@@ -141,19 +141,66 @@ html {
   padding: 0 10px 0;
 }
 .hero-content .social-list li {
-  padding: 30px 10px 0;
+  padding: 50px 10px 0;
 }
 .fa-github:hover, .fa-linkedin:hover, .fa-envelope:hover  {
  color: #fff;
 }
 
-/* PRESENTATION STYLES */
+/* PRESENTATION/ROADMAP STYLES */
 .home-roadmap {
-  height: 10vh;
-  font-size: 1.4em;
+  height: 80vh;
+  font-size: 1.3em;
   text-align: center;
-  line-height: 1.25;
 }
+.wrapper-roadmap {
+  padding: 30vh 0;
+}
+.item-date {
+ font-size: 16px;
+ font-style: italic;
+ font-weight: 600;
+}
+.line-roadmap {
+  background-image: linear-gradient(to right, #46c8f0 30%, #0c7ff2 80%);
+  border-radius: 5px ;
+  height: 16px;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%,0);
+  width: 90%;
+}
+.item-title-roadmap {
+  font-size: 18px;
+  font-weight: 900;
+  padding: 15px 0 20px 0;
+}
+.item-text-roadmap {
+  border: 1px solid #000;
+  font-size: 16px;
+  padding: 8px;
+  max-width: 140px;
+}
+.circles-line {
+  background-color: #000;
+  height: 24px;
+  width: 24px;
+  border-radius: 24px;
+}
+.item1-roadmap {
+  position: absolute;
+}
+.item1-date {
+  left: 15%;
+  position: absolute;
+  top: -10%;
+}
+.circle1-line {
+  position: relative;
+  left: 37%;
+  margin-top: -1.5%;
+}
+
 
 /* PORTFOLIO STYLES */
 .home-portfolio {
