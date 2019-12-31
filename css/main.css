@@ -69,7 +69,7 @@ html {
 .header-nav a {
   float: left;
   font-size: 20px;
-  font-weight: 900;
+  font-weight: 500;
   color: #000;
   text-align: center;
   text-decoration: none;
@@ -126,10 +126,10 @@ html {
 }
 .hero-content {
   color: #fff;
-  font-size: 2.5em ;
-  text-align: center;
-  padding: 35vh 0;
+  font-size: 2.3em ;
+  padding: 32vh 0;
   position: relative;
+  text-align: center;
   z-index: 20;
 }
 .hero-content span {
@@ -159,47 +159,79 @@ html {
 .item-date {
  font-size: 16px;
  font-style: italic;
- font-weight: 600;
+ font-weight: 400;
+ text-decoration: underline;
 }
 .line-roadmap {
-  background-image: linear-gradient(to right, #46c8f0 30%, #0c7ff2 80%);
-  border-radius: 5px ;
+  background-color: #ccc;
+  border: 2px solid #000;
+  border-radius: 10px ;
   height: 16px;
   left: 50%;
   position: relative;
   transform: translate(-50%,0);
   width: 90%;
 }
-.item-title-roadmap {
+.progress-line-roadmap {
+  border-radius: 10px ;
+  height: 16px;
+  left: 0%;
+  position: relative;
+  background-image: linear-gradient(to right, #46c8f0 30%, #0c7ff2 80%);
+  max-width: 536px;
+}
+
+.item-title {
   font-size: 18px;
   font-weight: 900;
   padding: 15px 0 20px 0;
 }
-.item-text-roadmap {
-  border: 1px solid #000;
+.item-text {
+  border: 1px solid #46c8f0;
+  border-radius: 10px;
   font-size: 16px;
   padding: 8px;
   max-width: 140px;
 }
 .circles-line {
   background-color: #000;
-  height: 24px;
-  width: 24px;
+  border: 2px solid #000; 
   border-radius: 24px;
-}
-.item1-roadmap {
+  height: 24px;
+  margin-top: -4px;
   position: absolute;
+  width: 24px;
 }
-.item1-date {
-  left: 15%;
-  position: absolute;
-  top: -10%;
+.circle-progress-line {
+  background-color: #fff;
+  border: 2px solid #000;
+  margin-top: -20px;
 }
+
 .circle1-line {
-  position: relative;
-  left: 37%;
-  margin-top: -1.5%;
+  left: 65px;
 }
+.circle2-line {
+  left: 293px;
+}
+.circle3-line {
+  left: 526px;
+}
+.circle4-line {
+  left: 758px;
+}
+.circle5-line {
+  left: 990px;
+}
+.circle6-line {
+  left: 1207px;
+}
+
+
+
+
+
+
 
 
 /* PORTFOLIO STYLES */
