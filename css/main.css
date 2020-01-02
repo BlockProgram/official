@@ -156,11 +156,16 @@ html {
   font-size: 1.3em;
 }
 .statement-roadmap {
+  margin-top: 4vh;
   text-align: center;
   font-weight: 600;
 }
 .wrapper-roadmap {
-  padding: 35vh 0 0 5vh;
+  padding: 35vh 0 0 3vh;
+}
+.wrapper-roadmap a {
+  text-decoration: none;
+  color: inherit;
 }
 .line-roadmap {
   background-color: #ccc;
@@ -198,23 +203,26 @@ html {
   left: 65px;
 }
 .circle2-line {
-  left: 293px;
+  left: 283px;
 }
 .circle3-line {
-  left: 526px;
+  left: 516px;
 }
 .circle4-line {
-  left: 761px;
+  left: 745px;
 }
 .circle5-line {
-  left: 990px;
+  left: 977px;
+}
+.circle6-line {
+  left: 1209px;
 }
 .item1-roadmap {
   position: absolute;
   left: -38px;
 }
 .item1-roadmap span {
-  font-weight: 600;
+  font-weight: 900;
 }
 .item1-roadmap .item-date-above {
   margin: -55px 0 40px 60px;
@@ -225,7 +233,7 @@ left: 13px;
 }
 .item2-roadmap {
   position: absolute;
-  left: 225px;
+  left: 215px;
 }
 .item2-roadmap .item-title-above  {
 position: relative;
@@ -239,31 +247,45 @@ left: -30px;
 }
 .item3-roadmap {
   position: absolute;
-  left: 423px;
+  left: 413px;
 }
 .item3-roadmap .item-title {
   margin: 0 0 0 30px;
 }
+.item3-roadmap .item-date {
+  margin-left: 65px;
+}
 .item4-roadmap {
   position: absolute;
-  left: 693px;
+  left: 675px;
 }
 .item4-roadmap .item-text-above {
 position: relative;
 top: -228px;
 left: -30px;
 }
+.item4-roadmap .item-text {
+max-width: 210px;
+}
 .item5-roadmap {
   position: absolute;
-  left: 887px;
+  left: 879px;
 }
 .item5-roadmap .item-title {
   margin-left: 25px;
 }
 .item5-roadmap .item-date {
-  margin-left: 60px; 
+  margin-left: 55px;
+}
+.item6-roadmap {
+  position: absolute;
+  left: 1116px;
+}
+.item6-roadmap .item-title {
+ top: -70px;
 }
 .item-date {
+ color: #0C7FF2;
  font-size: 16px;
  font-style: italic;
  font-weight: 400;
@@ -298,9 +320,18 @@ left: 38px;
 .home-portfolio {
   border-bottom: 1px solid rgba(50, 50, 50, 0.5);
   border-top: 1px solid rgba(50, 50, 50, 0.5);
+  font-size: 1.3em;
+  height: 80vh;
 }
-
+.statement-portfolio {
+  margin-top: 4vh; 
+  text-align: center;
+}
+.portfolio-squares {
+  margin-left: 50px;
+}
 .square1 {
+  border-radius: 2vh;
   display: inline-block;
   height: 30vh;
   width: 30vh;
@@ -308,6 +339,7 @@ left: 38px;
   margin-bottom: 1vh;
 }
 .square2 {
+  border-radius: 2vh;
   display: inline-block;
   height: 30vh;
   width: 30vh;
@@ -315,6 +347,7 @@ left: 38px;
   margin-bottom: 1vh;
 }
 .square3 {
+  border-radius: 2vh;
   display: inline-block;
   height: 30vh;
   width: 30vh;
@@ -322,6 +355,7 @@ left: 38px;
   margin-bottom: 1vh;
 }
 .square4 {
+  border-radius: 2vh;
   display: inline-block;
   height: 30vh;
   width: 30vh;
@@ -343,7 +377,6 @@ left: 38px;
     }
 }
 .waveWrapper {
-    /* background-color: red; */
     overflow: hidden;
     position: absolute;
     left: 0;
@@ -356,7 +389,7 @@ left: 38px;
     position: absolute;
     width: 100%;
     overflow: hidden;
-    height: 91%;
+    height: 92%;
     bottom: -1px;
     background-image: linear-gradient(to top, #46c8f0 30%, #0c7ff2 80%);
 }
