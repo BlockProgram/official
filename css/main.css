@@ -150,13 +150,85 @@ html {
  color: #fff;
 }
 
+/* ANIMATED BACKGROUND STYLE */
+@keyframes move_wave {
+    0% {
+        transform: translateX(0) translateZ(0) scaleY(1)
+    }
+    50% {
+        transform: translateX(-25%) translateZ(0) scaleY(0.55)
+    }
+    100% {
+        transform: translateX(-50%) translateZ(0) scaleY(1)
+    }
+}
+.waveWrapper {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+.waveWrapperInner {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 92%;
+    bottom: -1px;
+    background-image: linear-gradient(to top, #46c8f0 30%, #0c7ff2 80%);
+}
+
+.bgTop {
+    z-index: 15;
+    opacity: 0.5;
+}
+.bgMiddle {
+    z-index: 10;
+    opacity: 0.75;
+}
+.bgBottom {
+    z-index: 5;
+}
+.wave {
+    position: absolute;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background-repeat: repeat no-repeat;
+    background-position: 0 bottom;
+    transform-origin: center bottom;
+}
+.waveTop {
+    background-size: 50% 150px;
+}
+.waveAnimation .waveTop {
+  animation: move-wave 3s;
+   -webkit-animation: move-wave 3s;
+   -webkit-animation-delay: 1s;
+   animation-delay: 1s;
+}
+.waveMiddle {
+    background-size: 50% 170px;
+}
+.waveAnimation .waveMiddle {
+    animation: move_wave 10s linear infinite;
+}
+.waveBottom {
+    background-size: 50% 150px;
+}
+.waveAnimation .waveBottom {
+    animation: move_wave 15s linear infinite;
+}
+
 /* PRESENTATION/ROADMAP STYLES */
 .home-roadmap {
-  height: 80vh;
+  height: 70vh;
   font-size: 1.3em;
+  margin: 4vh 0 4vh 0;
 }
 .statement-roadmap {
-  margin-top: 4vh;
   text-align: center;
   font-weight: 600;
 }
@@ -195,9 +267,11 @@ html {
   width: 24px;
 }
 .circle-progress-line {
-  background-color: #fff;
+  background-color: #3ff249;
   border: 2px solid #000;
   margin-top: -22px;
+}
+.circle-progress-line:hover {
 }
 .circle1-line {
   left: 65px;
@@ -314,127 +388,106 @@ left: 38px;
   padding: 8px;
   max-width: 230px;
 }
+.item-text {
+  background-color: #0C7FF2;
+  color: #fff;
+}
+.item-text a {
+  background-color: #0C7FF2;
+  color: #000;
+}
 
+/* WAVE PORTFOLIO STYLES */
+.wave-wrapper-portfolio {
+    height: 25vh;
+    overflow: hidden;
+    /* position: relative; */
+    left: 0;
+    right: 0;
+    top: -48px;
+    /* margin: 10vh 0 0 0; */
+    z-index: 51;
+}
+.wave-portfolio {
+    /* position: absolute; */
+    width: 100%;
+    height: 19vh;
+    overflow: hidden;
+    background-size: 100% 150px;
+}
 
 /* PORTFOLIO STYLES */
 .home-portfolio {
+  background-image: linear-gradient(to bottom, #46c8f0 30%, #0c7ff2 80%);
   border-bottom: 1px solid rgba(50, 50, 50, 0.5);
-  border-top: 1px solid rgba(50, 50, 50, 0.5);
-  font-size: 1.3em;
-  height: 80vh;
+  height: 160vh;
+  position: relative;
 }
 .statement-portfolio {
-  margin-top: 4vh; 
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 5vh;
   text-align: center;
 }
-.portfolio-squares {
-  margin-left: 50px;
+.squares-portfolio {
+  position: relative;
 }
-.square1 {
+.style-square {
+  background-color: #fff;
+  background-size: 45vw 55vh;
   border-radius: 2vh;
-  display: inline-block;
-  height: 30vh;
-  width: 30vh;
-  background-color: #333;
+  height: 55vh;
+  width: 45vw;
   margin-bottom: 1vh;
 }
-.square2 {
-  border-radius: 2vh;
-  display: inline-block;
-  height: 30vh;
-  width: 30vh;
-  background-color: #333;
-  margin-bottom: 1vh;
+.style-square:hover {
+  opacity: 0.3;
 }
-.square3 {
-  border-radius: 2vh;
-  display: inline-block;
-  height: 30vh;
-  width: 30vh;
-  background-color: #333;
-  margin-bottom: 1vh;
+.style-text {
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.25;
+  position: absolute;
 }
-.square4 {
-  border-radius: 2vh;
-  display: inline-block;
-  height: 30vh;
-  width: 30vh;
-  background-color: #333;
-  margin-bottom: 1vh;
+.left-squares {
+  position: absolute;
+  right: 50%;
+  margin-right: 2.5vh;
+}
+.right-squares {
+  left: 50%;
+  position: absolute;
+  margin-left: 2.5vh;
+}
+.topleft-square {
+  background-image: url(/images/css-website-portfolio.png);
+  margin-bottom: 5vh;
+}
+.topleft-text {
+  max-width: 35vw;
+  left: 8%;
+  top: 25%;
+}
+.bottomleft-square {
+  background-image: url(/images/git-website-portfolio.png);
+}
+.bottomleft-text {
+  left: 20%;
+  bottom: 20%;
+  max-width: 25vw;
+}
+.topright-square {
+  background-image: url(/images/html-website-portfolio.png);
+  margin-bottom: 5vh;
+}
+.topright-text {
+  left: 71%;
+  top: 40%;
+  max-width: 25vw;
 }
 
 
-/* ANIMATED BACKGROUND STYLE */
-@keyframes move_wave {
-    0% {
-        transform: translateX(0) translateZ(0) scaleY(1)
-    }
-    50% {
-        transform: translateX(-25%) translateZ(0) scaleY(0.55)
-    }
-    100% {
-        transform: translateX(-50%) translateZ(0) scaleY(1)
-    }
-}
-.waveWrapper {
-    overflow: hidden;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    margin: auto;
-}
-.waveWrapperInner {
-    position: absolute;
-    width: 100%;
-    overflow: hidden;
-    height: 92%;
-    bottom: -1px;
-    background-image: linear-gradient(to top, #46c8f0 30%, #0c7ff2 80%);
-}
-
-.bgTop {
-    z-index: 15;
-    opacity: 0.5;
-}
-.bgMiddle {
-    z-index: 10;
-    opacity: 0.75;
-}
-.bgBottom {
-    z-index: 5;
-}
-.wave {
-    position: absolute;
-    left: 0;
-    width: 200%;
-    height: 100%;
-    background-repeat: repeat no-repeat;
-    background-position: 0 bottom;
-    transform-origin: center bottom;
-}
-.waveTop {
-    background-size: 50% 150px;
-}
-.waveAnimation .waveTop {
-  animation: move-wave 3s;
-   -webkit-animation: move-wave 3s;
-   -webkit-animation-delay: 1s;
-   animation-delay: 1s;
-}
-.waveMiddle {
-    background-size: 50% 170px;
-}
-.waveAnimation .waveMiddle {
-    animation: move_wave 10s linear infinite;
-}
-.waveBottom {
-    background-size: 50% 150px;
-}
-.waveAnimation .waveBottom {
-    animation: move_wave 15s linear infinite;
-}
 
 /* SOCIAL STYLES */
 .social-list a {
