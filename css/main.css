@@ -522,3 +522,9 @@ left: 38px;
 .social-list li {
   display: inline-block;
 }
+
+
+/* BLOG STYLES */
+.post-container {
+  height: 70vh; 
+}
