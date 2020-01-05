@@ -420,15 +420,27 @@ left: 38px;
 .home-portfolio {
   background-image: linear-gradient(to bottom, #46c8f0 30%, #0c7ff2 80%);
   border-bottom: 1px solid rgba(50, 50, 50, 0.5);
-  height: 160vh;
+  height: 165vh;
   position: relative;
 }
-.statement-portfolio {
+.title-portfolio {
   color: #fff;
   font-size: 30px;
   font-weight: bold;
+  margin-bottom: 7vh;
+  text-align: center;
+}
+.statement-portfolio {
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
   margin-bottom: 5vh;
   text-align: center;
+}
+.statement-portfolio a {
+  color: #000;
+  font-size: 22px;
+  text-decoration: none;
 }
 .squares-portfolio {
   position: relative;
@@ -467,14 +479,14 @@ left: 38px;
 .topleft-text {
   max-width: 35vw;
   left: 8%;
-  top: 25%;
+  top: 32%;
 }
 .bottomleft-square {
   background-image: url(/images/git-website-portfolio.png);
 }
 .bottomleft-text {
-  left: 20%;
-  bottom: 20%;
+  left: 22%;
+  bottom: 17%;
   max-width: 25vw;
 }
 .topright-square {
@@ -483,10 +495,23 @@ left: 38px;
 }
 .topright-text {
   left: 71%;
-  top: 40%;
+  top: 42%;
   max-width: 25vw;
 }
-
+.bottomright-square {
+  position: relative;
+}
+.bottomright-text {
+  bottom: 50%;
+  color: #000;
+  font-size: 26px;
+  font-weight: bold;
+  right: 50%;
+  transform: translate(50%,50%);
+}
+.bottomright-square:hover {
+  opacity: 1;
+}
 
 
 /* SOCIAL STYLES */
