@@ -2,10 +2,16 @@
 layout: default
 ---
 
-<div class="blog list">
+<div class="category-container">
 
-    {% for post in site.categories[page.tag] %}
-        <a href="{{post.url}}">{{post.title}}</a>
-        {{post.excerpt}}
-    {% endfor %}
+  {% include categories-nav.html %}
+
+  <div class="blog list">
+
+      {% for post in site.categories[page.tag] %}
+          <a href="{{post.url}}">{{post.title}}</a>
+          {{post.excerpt}}
+      {% endfor %}
+  </div>
+
 </div>
