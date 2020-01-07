@@ -1,19 +1,20 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  {% include head.html  %}
+  <body>
 
-{% include categories-nav.html %}
+    <div class="header-post">
+      {% include header.html %}
+    </div>
 
-<h1>{{ page.title }}</h1>
-<div class="tags">
-{% assign sortedCategories = page.categories | sort %}
-{% for category in sortedCategories %}
-  <span class="tag">
-      <a href="/category/{{ category }}">{{ category }}</a>
-  </span>
-{% endfor %}
-</div>
+    {% include categories-nav.html %}
 
-<div class="post-container">
-  {{ content }}
-</div>
+    <h1>{{ page.title }}</h1>
+
+    <div class="post-container">
+      {{ content }}
+    </div>
+
+    {% include footer.html %}
+  </body>
+</html>

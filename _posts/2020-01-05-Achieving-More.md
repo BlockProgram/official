@@ -6,33 +6,98 @@ permalink: "/interests/achieving-more"
 postHero: /images/blue-sky-water.jpg
 ---
 
-<img src="http://i.hurimg.com/i/hdn/75/0x0/5deb806fd3806c0da89e6816.jpg" alt="AI">
+<h2>
+  Being productive simply means achieving your goals as fast as possible
+</h2>
+<a href="{{ page.permalink}}"><img class="post-img-hero" src="/images/efficiency.png" alt="efficiency"></a>
 
-Being productive simply means achieving your goals as fast as possible.
-In this article,
- I'm going over the best strategies I learned from top entrepreneurs, books & my own experience.
+<h3 class="post-summary">
+  In this article, I'm going over the best strategies I learned from top entrepreneurs, books & my own experience.
+</h3>
 
- The most interesting lessons I've came across in my whole life are from Serge Faguet. A serial entrepreneur and biohacker who wrote several priceless articles on Medium the past few years.
+<p>
+  Productivity is rightfully a major topic covering all aspects of our lives. Because time is limited, we must maximize its utility.
+</p>
 
- My favorite one is entitled "How to biohack your intelligence". This piece describes in rich details how to become much more "intelligent" & thus effective each day; by getting more sleep for example.
+ <p>
+   The most interesting lessons I've came across in my whole life are from
+   <a href="https://medium.com/@sergefaguet" target="-_blank" rel="noopener">Serge Faguet</a>.
+   A serial entrepreneur and biohacker who wrote several priceless articles on Medium the past few years.
+   <br>
+   My favorite one is entitled
+   <a
+    href="https://medium.com/hackernoon/biohack-your-intelligence-now-or-become-obsolete-97cdd15e395f"
+    target="-_blank" rel="noopener">"How to biohack your intelligence"
+   </a>.
+   This piece describes in rich detail how to become much more "intelligent" & thus effective each day;
+   by getting more sleep for example.
+ </p>
 
- <a href="https://medium.com/hackernoon/biohack-your-intelligence-now-or-become-obsolete-97cdd15e395f">https://medium.com/hackernoon/biohack-your-intelligence-now-or-become-obsolete-97cdd15e395f</a>
+<h3>
+  Here are to me the most important habits he recommends for optimal performance:
+</h3>
 
-Here are to me the most important habits he recommends for optimal performance:
-1) Iterate over and over. See what you're not doing perfectly and improve
-1) Fix your sleep. More sleep = more energy = more productive 7-8 hours is optimal 
-2) Set goals on many time frames (daily, weekly, monthly, yearly, ultimate goal)
-3) Cut off any distraction when you work to get into a state of flow
-3) READ AGAIN HIS ARTICLES TO EXTRACT INSIGHTS
+<div class="list-post-achievingmore">
+  <li>
+    Iterate over and over
+  </li>
+  <p>
+    Notice what you're not doing perfectly and improve.
+  </p>
+  <li>
+    Fix your sleep (7-8 hours)
+  </li>
+  <p>
+    More sleep = more energy, memory... = more productivity
+  </p>
+  <li>
+    Set goals on many time frames (daily, weekly, yearly, ultimate goals)
+  </li>
+  <li>
+    Cut off any distraction when you work, to get into a state of flow
+  </li>
+</div>
 
-There are so many valuable lessons in his articles that I suggest you refer to it to achieve greater levels of productivity.
 
-Other than that, here are a few more tips coming from various sources:
-X) Use a to-dolist
+<p>
+  There are so many valuable lessons in his articles that I suggest you read it all to achieve greater levels of productivity.
+</p>
 
-Something I really like doing. It allows me to plan in advance, to prioritise tasks and to never forget anything
+<img class="post-img" src="/images/pomodoro.png" alt="pomodoro-technique">
 
-X) Use a pomodoro
+<h3>
+  Other than that, here are a few more tips coming from various sources:
+</h3>
 
-You may be familiar with the pomodoro technique, a way of organizing your work by splitting it into sessions. Say you concentrate deeply on your task for 25 minutes and then take a break of 5 minutes. It's a great way to stay on track, here is the online tool I use when on my laptop:  
-https://domantasp.github.io/Pomotimer/
+<li>
+  Use a to-do list
+</li>
+
+<p>
+  Something I really like doing. It allows me to plan in advance, to prioritise tasks and to never forget anything.
+  My go to solution is <a href="https://www.pivotaltracker.com/dashboard" target="-_blank" rel="noopener">
+  Pivotal Tracker</a>
+  , an agile project management tool usually used for software development but it works fine for your daily tasks too!
+</p>
+
+<li>
+Use a pomodoro
+</li>
+
+<p>
+  You may be familiar with the <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique" target="-_blank" rel="noopener">
+  pomodoro technique</a>
+  , a way of organizing your work by splitting it into blocks.
+  For example, you may concentrate deeply on a task for 25 minutes and then take a break of 5 minutes.
+  It's a great way to stay on track, here is the online pomotimer I use:
+  <a href="https://domantasp.github.io/Pomotimer/" target="-_blank" rel="noopener">
+  https://domantasp.github.io/Pomotimer/</a>
+</p>
+
+<div class="last-sentence-post">
+  <p>
+    That were my essentials to get more done in less time, check out my other blog posts
+    on <a href="/category/longevity" target="-_blank" rel="noopener">Longevity</a>
+    and <a href="/category/technology" target="-_blank" rel="noopener">Technology</a> if you feel like it!
+  </p>
+</div>

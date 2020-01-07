@@ -53,6 +53,21 @@ html {
 .content-container {
   cursor: default;
 }
+h1 {
+font-size: 32px;
+margin: 1vh 0 4vh;
+text-align: center;
+}
+h2 {
+font-size: 20px;
+margin: 0 0 3vh;
+text-align: center;
+}
+h3 {
+font-size: 20px;
+font-weight: 600;
+margin: 3vh 0 2vh;
+}
 
 /* HEADER STYLES */
 .header {
@@ -60,6 +75,9 @@ html {
   position: relative;
   width: 100%;
   z-index: 50;
+}
+.header-post  {
+  background-image: linear-gradient(to left, #46c8f0 30%, #0c7ff2 80%);
 }
 .header-nav {
   bottom: 50%;
@@ -380,17 +398,15 @@ top: -105px;
 left: 38px;
 }
 .item-text {
+  background-color: #0C7FF2;
   border: 1px solid #0C7FF2;
-  box-sizing: border-box;
   border-radius: 10px;
+  box-sizing: border-box;
+  color: #fff;
   font-size: 16px;
   line-height: 1.5;
   padding: 8px;
   max-width: 230px;
-}
-.item-text {
-  background-color: #0C7FF2;
-  color: #fff;
 }
 .item-text a {
   background-color: #0C7FF2;
@@ -513,7 +529,6 @@ left: 38px;
   opacity: 1;
 }
 
-
 /* SOCIAL STYLES */
 .social-list a {
   text-decoration: none;
@@ -523,18 +538,22 @@ left: 38px;
   display: inline-block;
 }
 
-
-/* BLOG STYLES */
+/* INTERESTS (BLOG) STYLES */
 .interests-container {
   background-image: linear-gradient(to top, #46c8f0 30%, #0c7ff2 80%);
-  height: 200vh;
-  color: #fff; 
+  color: #fff;
+  padding-bottom: 5vh;
 }
-
-.post-container {
-  height: 70vh;
+.interests-container h1 {
+  margin: 2vh 0 5vh;
 }
-/* CATEGORIES STYLES */
+.interests-container a {
+  color: #fff;
+  text-align: center;
+}
+.postwrapper-interests {
+  clear: both;
+}
 .categories-buttons {
   height: 15vh;
   left: 52.5%;
@@ -543,7 +562,7 @@ left: 38px;
   transform: translate(-50%,0);
 }
 .categories-buttons  a {
-  background-color: #36FF75;
+  background-color: #3ff249;
   border: 4px solid #fff;
   border-radius: 10px;
   color: #fff;
@@ -552,6 +571,68 @@ left: 38px;
   padding: 1.5vh;
   text-decoration: none;
 }
-.postwrapper-interests {
-  clear: both;
+.categories-buttons  a:hover {
+  border: 4px solid #000;
+  color: #000;
+}
+
+/* CATEGORIES STYLES */
+.category-container {
+  background-image: linear-gradient(to top, #46c8f0 30%, #0c7ff2 80%);
+  color: #fff;
+  padding-bottom: 5vh;
+}
+.category-container a {
+  color: #fff;
+  text-align: center;
+}
+.category-container h1 {
+  margin: 2vh 0 5vh;
+}
+
+/*POST STYLES */
+.post-img-hero {
+  border: 2px solid #fff;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 2vh;
+  max-height: 500px;
+}
+.post-summary {
+  font-style: italic;
+  font-weight: normal;
+  margin: 0 0 5vh;
+  text-align: center;
+}
+.post-container {
+  margin: 0 10vh;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.post-container p {
+  margin: 2vh 0 2vh;
+}
+.post-container li {
+  font-weight: bold;
+  margin: 2vh 0;
+}
+.post-container a {
+  color: #0C7FF2;
+  font-weight: bold;
+  text-decoration: none;
+}
+.post-img {
+  display: block;
+  margin: 4vh auto;
+  max-width: 90%;
+}
+.last-sentence-post {
+  margin: 6vh 0 2vh;
+}
+.list-post-achievingmore li:last-child{
+  margin: 0 0 4vh;
+}
+.first-sentence-techoriented  {
+  font-weight: bold;
+  margin: 0 0 4vh;
 }
