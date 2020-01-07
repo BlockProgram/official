@@ -10,36 +10,83 @@ posthero: images/git-website-portfolio.png
 
 
   <h2>
-    Live much longer
+    Maximizing our stay on Earth
   </h2>
   <a href="{{ page.permalink}}"><img class="post-img-hero" src="/images/human-evolution.jpeg"
    alt="human evolution">
   </a>
 
   <h3 class="post-summary">
-    In this article, I'm going over the best strategies I learned from top entrepreneurs, books & my own experience.
+    Various advanced technologies combined with extensive research on our physiology are allowing us to live much longer
   </h3>
 
   <p>
-    Productivity is rightfully a major topic covering all aspects of our lives. Because time is limited, we must maximize its utility.
+    Being alive is great isn't it?!
+  </p>
+  <p>
+     Despite all the mystery around our universe, human beings and life in general;
+     our ultimate goal should always be to increase our lifespan & healthspan (quality of life).
+     This article introduces you to my philosophy regarding longevity as well as to the strategies I apply.
   </p>
 
+
+  <img class="post-img" src="/images/life-expectancy.png" alt="life expectancy graph 1770 2018">
+
    <p>
-     The most interesting lessons I've came across in my whole life are from
-     <a href="https://medium.com/@sergefaguet" target="-_blank" rel="noopener">Serge Faguet</a>.
-     A serial entrepreneur and biohacker who wrote several priceless articles on Medium the past few years.
-     <br>
-     My favorite one is entitled
-     <a
-      href="https://medium.com/hackernoon/biohack-your-intelligence-now-or-become-obsolete-97cdd15e395f"
-      target="-_blank" rel="noopener">"How to biohack your intelligence"
-     </a>.
-     This piece describes in rich detail how to become much more "intelligent" & thus effective each day;
-     by getting more sleep for example.
+     After looking at the above graph, we clearly see the progress we made during
+     the last decades when it comes to life expectancy. Imagine having 30 years
+     to live as a man living in 1800, that would suck!
    </p>
 
+   <p>
+     As of today, the average american woman has a life expectancy of 81 years.
+     Which is great compared to the past but pale into insignifiance compared to what could be possible
+     ideally. Consider that the oldest person that ever lived, Jeanne Calment, died aged 122.
+     While this age is remarkable, many scientists argue that human beings could live much longer
+     and stay younger in the process.
+   </p>
+
+   <p>
+     Below are the most important habits to enhance our lifespan that I know of as well as a
+     few online resources to become (at least) a supercentenarian!
+
+   </p>
+
+   <h3>
+     Sleep
+   </h3>
+
+   <h3>
+     Intermittent Fasting
+   </h3>
+
+   <h3>
+     Exercise
+   </h3>
+
+
+
+   <h3>Longevity Mentors: Serge Faguet, Petter Attia, Aubrey de Grey, Singularity University</h3>
+
+   <p>
+     In first place on my "live longer" list comes Serge Faguet's advices. He's an entrepreneur & biohacker who
+     completely changed my daily life thanks to his
+     <a href="https://medium.com/@sergefaguet" target="-_blank" rel="noopener">Medium articles</a>.
+     Optimization at every level is an obsession for him so it's no surprise he gives the best insights on longevity.
+   </p>
+   <p>
+     Serge's health is monitored by one of best longevity experts on
+     AUBREY DE GREY --> Youtube Video & Introduce Longevity Escape Velocity
+     , PETTER ATIA, SINGULARITY UNIVERSITY for Resources
+     https://peterattiamd.com/start-here/
+   </p>
+
+  <iframe width="700" height="400" src="https://www.youtube.com/embed/fp8lFMkenoU"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen></iframe>
+
   <h3>
-    Here are to me the most important habits he recommends for optimal performance:
+    Futuristic therapies: Stop aging, switch bodies & more crazy stuff
   </h3>
 
   <div class="list-post-achievingmore">

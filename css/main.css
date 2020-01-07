@@ -545,7 +545,7 @@ left: 38px;
   padding-bottom: 5vh;
 }
 .interests-container h1 {
-  margin: 2vh 0 5vh;
+  margin: 4vh 0 5vh;
 }
 .interests-container a {
   color: #fff;
@@ -587,7 +587,7 @@ left: 38px;
   text-align: center;
 }
 .category-container h1 {
-  margin: 2vh 0 5vh;
+  margin: 2vh 0 6vh;
 }
 
 /*POST STYLES */
@@ -625,6 +625,7 @@ left: 38px;
   display: block;
   margin: 4vh auto;
   max-width: 90%;
+  max-height: 550px; 
 }
 .last-sentence-post {
   margin: 6vh 0 2vh;
