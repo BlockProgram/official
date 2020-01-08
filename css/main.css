@@ -71,7 +71,7 @@ margin: 3vh 0 2vh;
 
 /* HEADER STYLES */
 .header {
-  height: 10vh;
+  height: 8vh;
   position: relative;
   width: 100%;
   z-index: 50;
@@ -94,7 +94,7 @@ margin: 3vh 0 2vh;
   color: #000;
   text-align: center;
   text-decoration: none;
-  padding: 14px 16px;
+  padding: 18px 16px;
 }
 .header-nav a:hover, dropdown:hover  {
   background-color: #000;
@@ -193,8 +193,8 @@ margin: 3vh 0 2vh;
     position: absolute;
     width: 100%;
     overflow: hidden;
-    height: 92%;
-    bottom: -1px;
+    height: 90%;
+    bottom: 2vh;
     background-image: linear-gradient(to top, #46c8f0 30%, #0c7ff2 80%);
 }
 
@@ -568,7 +568,7 @@ left: 38px;
   color: #fff;
   float: left;
   margin: 5vh 2vh 0 0;
-  padding: 1.5vh;
+  padding: 1.3vh;
   text-decoration: none;
 }
 .categories-buttons  a:hover {

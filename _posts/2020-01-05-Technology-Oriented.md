@@ -38,7 +38,7 @@ postHero: images/blue-sky-water.jpg
 
 <p>
   The older I get, the more attracted I am to technology in general and the more
-  eager I am to learn & participate in the advancement of our tools.
+  eager I am to learn & to participate in the advancement of our tools.
   It is particularly important to become familiar with high-tech in a world that increasingly uses it.
 </p>
 
@@ -90,7 +90,7 @@ postHero: images/blue-sky-water.jpg
     3) A nomadic lifestyle
   </li>
   <p>
-    It's to me the most crucial thing about the job of web developer and similar positions;
+    It's to me a very important aspect about the job of web developer and similar positions;
     you can travel the world and work remotely with ease.
   </p>
 </div>
@@ -98,7 +98,7 @@ postHero: images/blue-sky-water.jpg
 
 <div class="last-sentence-post">
   <p>
-    You know have a better idea of why I'm pursuing the programming life.
+    You now have a better idea of why I'm pursuing the programming life.
     My other blog posts cover <a href="/category/longevity" target="-_blank" rel="noopener">Longevity</a>
     and <a href="/category/productivity" target="-_blank" rel="noopener">Productivity</a> if you're interested.
   </p>
