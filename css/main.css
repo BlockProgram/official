@@ -625,7 +625,7 @@ left: 38px;
   display: block;
   margin: 4vh auto;
   max-width: 90%;
-  max-height: 550px; 
+  max-height: 550px;
 }
 .last-sentence-post {
   margin: 6vh 0 2vh;
@@ -636,4 +636,12 @@ left: 38px;
 .first-sentence-techoriented  {
   font-weight: bold;
   margin: 0 0 4vh;
+}
+.images-block-extendpost img {
+  width: 23%;
+}
+.youtubevid-extendpost {
+  left: 50%;
+  position: relative;
+  transform: translate(-50%,0);
 }
