@@ -141,6 +141,12 @@ margin: 3vh 0 2vh;
   margin: 1vh 0 0;
   position: relative;
 }
+.footer-post  {
+  background-image: linear-gradient(to left, #46c8f0 30%, #0c7ff2 80%);
+}
+.footer-post .footer-nav a:hover {
+  color: #fff;
+}
 .footer-nav {
   bottom: 80%;
   right: 50%;
@@ -662,7 +668,7 @@ left: 38px;
   max-height: 550px;
 }
 .last-sentence-post {
-  margin: 6vh 0 2vh;
+  margin: 6vh 0 3vh;
 }
 .list-post-achievingmore li:last-child{
   margin: 0 0 4vh;
