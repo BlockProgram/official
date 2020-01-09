@@ -81,11 +81,9 @@ margin: 3vh 0 2vh;
 }
 .header-nav {
   bottom: 50%;
-  height: 8vh;
   right: 50%;
   position: absolute;
   transform: translate(50%, 50%);
-  width: 55vh;
 }
 .header-nav a {
   float: left;
@@ -94,7 +92,7 @@ margin: 3vh 0 2vh;
   color: #000;
   text-align: center;
   text-decoration: none;
-  padding: 18px 16px;
+  padding: 16px 16px;
 }
 .header-nav a:hover, dropdown:hover  {
   background-color: #000;
@@ -115,7 +113,7 @@ margin: 3vh 0 2vh;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   display: none;
   min-width: 160px;
-  top: 75%;
+  top: 100%;
   position: absolute;
   z-index: 30;
 }
@@ -136,6 +134,43 @@ margin: 3vh 0 2vh;
   display: block;
   background-color: #fff;
 }
+
+/* FOOTER STYLES */
+.footer {
+  height: 13vh;
+  margin: 1vh 0 0;
+  position: relative;
+}
+.footer-nav {
+  bottom: 80%;
+  right: 50%;
+  position: absolute;
+  transform: translate(50%, 80%);
+}
+.footer-nav a {
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+  margin-left: 15px;
+}
+.footer-nav a:hover {
+  color: #0C7FF2;
+}
+.footer .social-list {
+  text-align: center;
+  bottom: 10%;
+  right: 50%;
+  position: absolute;
+  transform: translate(50%, 10%);
+}
+.footer .social-list a {
+  font-size: 28px;
+  margin-left: 20px;
+}
+.footer .social-list a:hover {
+  color: #0C7FF2;
+}
+
 
 
 /* HERO STYLES */
@@ -159,13 +194,12 @@ margin: 3vh 0 2vh;
 }
 .hero-content .social-list a {
   font-size: 1em;
-  padding: 0 10px 0;
 }
 .hero-content .social-list li {
-  padding: 50px 10px 0;
+  padding: 50px 20px 0;
 }
-.fa-github:hover, .fa-linkedin:hover, .fa-envelope:hover  {
- color: #fff;
+.hero-content .social-list a:hover {
+  color: #fff;
 }
 
 /* ANIMATED BACKGROUND STYLE */
