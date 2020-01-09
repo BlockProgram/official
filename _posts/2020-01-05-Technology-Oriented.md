@@ -9,7 +9,7 @@ postHero: images/blue-sky-water.jpg
 <h2>
   Technology aka Humanity's greatest inventions
 </h2>
-<a href="{{ page.permalink}}"><img class="post-img-hero" src="http://i.hurimg.com/i/hdn/75/0x0/5deb806fd3806c0da89e6816.jpeg"
+<a href="{{ page.permalink}}"><img class="post-img-hero" src="https://i.hurimg.com/i/hdn/75/0x0/5deb806fd3806c0da89e6816.jpeg"
  alt="AI">
 </a>
 
