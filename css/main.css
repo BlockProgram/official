@@ -607,7 +607,6 @@ left: 38px;
   border: 4px solid #fff;
   border-radius: 10px;
   color: #fff;
-  display: inline-block;
   float: left;
   margin: 5vh 2vh 3vh 0;
   padding: 1.3vh;
@@ -696,7 +695,32 @@ left: 38px;
   html {
     width: 100%;
     }
+
+  /*HEADER STYLES */ 
+  .header-nav {
+    font-size: 0.7em;
+    }
   .dropdown-content {
-    display: none;
-      }
-   }
+  display: none;
+  }
+  .dropdown:hover .dropdown-content {
+  display: none;
+  }
+  .dropdown-trigger i {
+  display: none;
+  }
+
+  /* HERO STYLES */ 
+  .home-hero {
+    height: 40vh;
+  }
+  .hero-content {
+    font-size: 6vw;
+    line-height: 1.5;
+  }
+
+  /* PORTFOLIO STYLES */ 
+  .wave-wrapper-portfolio {
+    display: none; 
+  }
+}
