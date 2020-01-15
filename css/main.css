@@ -698,7 +698,11 @@ left: 38px;
 
   /*HEADER STYLES */ 
   .header-nav {
-    font-size: 2em;
+    min-width: 300px;
+    }
+  .header-nav a {
+    font-size: 1em;
+    padding: 8px 8px; 
     }
   .dropdown-content {
   display: none;
@@ -715,12 +719,17 @@ left: 38px;
     height: 40vh;
   }
   .hero-content {
-    font-size: 6vw;
+    font-size: 7vw;
     line-height: 1.5;
   }
-
-  /* PORTFOLIO STYLES */ 
-  .wave-wrapper-portfolio {
-    display: none; 
+  /* ROADMAP STYLES */ 
+  .home-roadmap {
+    height: 70vh;
+    font-size: 1.3em;
+    margin: 3vh 0 4vh 0;
+    overflow: hidden;
+    width: 90%;
   }
+  /* PORTFOLIO STYLES */ 
+  
 }
