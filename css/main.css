@@ -467,7 +467,6 @@ left: 38px;
     background-size: 100% 150px;
     max-height: 19vh;
     width: 100%;
-
 }
 
 /* PORTFOLIO STYLES */
@@ -690,12 +689,13 @@ left: 38px;
   transform: translate(-50%,0);
 }
 
+
 /* MEDIA STYLES */
 @media (max-width: 1050px) {
   html {
     width: 100%;
     }
-
+  
   /*HEADER STYLES */ 
   .header-nav {
     min-width: 300px;
@@ -714,22 +714,335 @@ left: 38px;
   display: none;
   }
 
+  /* FOOTER STYLES */
+.footer {
+  height: 13vh;
+  margin: 1vh 0 0;
+  position: relative;
+}
+.footer-nav {
+  bottom: 80%;
+  min-width: 80vw;
+  right: 50%;
+  position: absolute;
+  transform: translate(50%, 80%);
+}
+.footer-nav a {
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+  margin-left: 15px;
+}
+.footer .social-list {
+  text-align: center;
+  bottom: 20%;
+  right: 50%;
+  position: absolute;
+  transform: translate(50%, 20%);
+}
+.footer .social-list a {
+  font-size: 28px;
+  margin-left: 20px;
+}
+
+
   /* HERO STYLES */ 
   .home-hero {
-    height: 40vh;
+    height: 82vh;
   }
   .hero-content {
     font-size: 7vw;
     line-height: 1.5;
+    padding: 26vh 0 0;
   }
+  
   /* ROADMAP STYLES */ 
   .home-roadmap {
-    height: 70vh;
-    font-size: 1.3em;
-    margin: 3vh 0 4vh 0;
-    overflow: hidden;
+    height: auto;
+    font-size: 1.1em;
     width: 90%;
   }
+  .statement-roadmap  {
+    line-height: 1.5;
+    margin-left: 10vw;
+  }
+  .wrapper-roadmap {
+    padding: 6vh 0 0 0;
+  }
+  .line-roadmap {
+    height: 220vh;
+    left: 15%;
+    position: relative;
+    transform: translate(-50%,0);
+    width: 16px;
+  }
+  .progress-line-roadmap {
+    height: 92vh;
+    left: 0%;
+    position: absolute;
+    background-image: linear-gradient(to bottom, #46c8f0 30%, #0c7ff2 80%);
+    width: 16px;
+  }
+  .circles-line {
+    background-color: #000;
+    border: 2px solid #000;
+    border-radius: 24px;
+    height: 24px;
+    margin-top: -5.5px;
+    position: absolute;
+    width: 24px;
+  }
+  .circle-progress-line {
+    background-color: #3ff249;
+    border: 2px solid #000;
+    margin-top: -22px;
+  }
+  .circle1-line {
+    left: -6px;
+    top: 2%; 
+  }
+  .circle2-line {
+    left: -6px;
+    top: 24%; 
+  }
+  .circle3-line {
+    left: -6px;
+    top: 42%; 
+  }
+  .circle4-line {
+    left: -6px;
+    top: 64%; 
+    z-index: 61;
+  }
+  .circle5-line {
+    left: -6px;
+    top: 77%; 
+    z-index: 61;
+  }
+  .circle6-line {
+    left: -6px;
+    top: 97%; 
+    z-index: 61;
+  }
+  .item1-roadmap {
+    position: absolute;
+    left: 500%;
+    top: 1%; 
+  }
+  .item1-roadmap span {
+    font-weight: 900;
+  }
+  .item1-roadmap .item-date-above {
+    margin: 0; 
+  }
+  .item1-roadmap .item-title-under  {
+  position: relative;
+  left: 13px;
+  }
+  .item2-roadmap {
+    position: absolute;
+    left: 500%;
+    top: 23%; 
+  }
+  .item2-roadmap .item-title-above  {
+  position: relative;
+  top: 0px;
+  left: 13px;
+  }
+  .item2-roadmap .item-text-above  {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  }
+  .item2-roadmap .item-date {
+    margin: 0; 
+  }
+  .item3-roadmap {
+    position: absolute;
+    left: 500%;
+    top: 41%; 
+  }
+  .item3-roadmap .item-title {
+    left: 13px; 
+    margin: 0; 
+    position: relative;
+    top: 0;
+  }
+  .item3-roadmap .item-date {
+    margin: 0; 
+  }
+  .item4-roadmap {
+    position: absolute;
+    left: 500%;
+    top: 64%;
+  }
+  .item4-roadmap .item-date {
+    left: 0; 
+    margin: 0; 
+    top: 0; 
+  }
+  .item4-roadmap .item-title {
+    left: 13px; 
+    margin: 0;
+    position: relative;
+    top: 0; 
+  }
+  .item4-roadmap .item-text-above {
+    left: 0; 
+    margin: 0;
+    top: 0;
+  }
+  .item4-roadmap .item-text {
+  max-width: 210px;
+  }
+  .item5-roadmap {
+    left: 500%;
+    position: absolute;
+    top: 77%; 
+  }
+  .item5-roadmap .item-title {
+    left: 13px; 
+    margin: 0; 
+    position: relative;
+    top: 0; 
+  }
+  .item5-roadmap .item-date {
+    margin: 0;
+  }
+  .item6-roadmap {
+    left: 500%;
+    position: absolute;
+    top: 96.2%; 
+  }
+  .item6-roadmap .item-title {
+   left: 13px; 
+   margin: 0;
+   position: relative; 
+   top: 0px;
+   width: 60vw; 
+  }
+
+  /* WAVE PORTFOLIO STYLES */
+.wave-wrapper-portfolio {
+  height: 25vh;
+  overflow: hidden;
+  position: absolute;
+  top: -2%; 
+  z-index: 61;
+}
+.wave-portfolio {
+  height: 19vh;
+  background-size: 100% 150px;
+  max-height: 19vh;
+  overflow: hidden;
+  width: 140%;
+  padding-bottom: 4%;
+}
+
   /* PORTFOLIO STYLES */ 
-  
+  .home-portfolio {
+    background-image: linear-gradient(to bottom, #46c8f0 30%, #0c7ff2 80%); 
+    height: auto; 
+    min-height: 165vh;
+  }
+  .title-portfolio {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 7vh;
+    padding-top: 17vh;
+    text-align: center;
+  }
+  .style-square {
+    background-color: #fff;
+    background-size: 80vw 55vh;
+    border-radius: 2vh;
+    height: 55vh;
+    width: 80vw;
+    margin: 0 auto 5vh;
+    opacity: 0.9;
+  }
+  .style-square:hover {
+    opacity: 1;
+  }
+  .style-text {
+    color: #000; 
+    font-size: 15px;
+    position: absolute;
+    z-index: 60;
+  }
+  .left-squares {
+    position: static;
+    margin: 0; 
+  }
+  .right-squares {
+    position: static; 
+    margin: 0; 
+  }
+  .topleft-text {
+    left: 14%;
+    max-width: 70vw;
+    top: 21%;
+  }
+  .bottomleft-square {
+    background-color: #fff;
+    background-size: cover;
+  }
+  .bottomleft-text {
+    color: #fff; 
+    font-size: 15px;
+    left: 14%;
+    top: 61%;
+    max-width: 60vw;
+  }
+  .topright-text {
+    left: 45%;
+    top: 85%;
+    max-width: 50vw;
+  }
+
+  /* INTERESTS STYLES */ 
+  .interests-container {
+    overflow: hidden;
+  }
+  .postwrapper-interests {
+    margin: 0 5vw; 
+  }
+  .categories-buttons {
+      height: 15vh;
+      left: 0;
+      position: relative;
+      margin-left: 3vw; 
+      min-width: 350px;
+      width: 30vw;
+      transform: translate(0,0);
+  }
+  .categories-buttons  a {
+    font-size: 13px;
+    margin: 5vh 1vh 3vh 0;
+  }
+
+  /* CATEGORY STYLES */
+  .category-container .blog-list {
+    margin: 0 5vw; 
+  }
+
+  /*BLOG STYLES */ 
+  .post-container {
+    margin: 0 5vh;
+    font-size: 16px;  
+  }
+  .post-summary {
+    font-size: 16px;
+  }
+  .post-img-hero {
+    margin: 0; 
+    max-height: 60vh;
+    max-width: 100%; 
+    width: auto;  
+  }
+  .youtubevid-extendpost {
+    width: auto; 
+  }
+
 }
