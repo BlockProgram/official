@@ -531,22 +531,23 @@ left: 38px;
 .topleft-text {
   max-width: 35vw;
   left: 8%;
-  top: 32%;
+  top: 30%;
 }
 .topright-square {
   background-image: url(/images/html-website-portfolio.png);
 }
 .topright-text {
-  left: 71%;
+  left: 72%;
   top: 42%;
   max-width: 25vw;
 }
 .bottomleft-square {
   background-image: url(/images/git-website-portfolio.png);
+  background-size: cover;
 }
 .bottomleft-text {
   left: 22%;
-  bottom: 17%;
+  bottom: 15%;
   max-width: 25vw;
 }
 
