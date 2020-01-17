@@ -473,7 +473,7 @@ left: 38px;
 .home-portfolio {
   background-image: linear-gradient(to bottom, #46c8f0 30%, #0c7ff2 80%);
   border-bottom: 1px solid rgba(50, 50, 50, 0.5);
-  height: 165vh;
+  height: auto;
   margin-top: 12vh;
   min-height: 165vh;
   position: relative;
@@ -497,9 +497,6 @@ left: 38px;
   font-size: 22px;
   text-decoration: none;
 }
-.squares-portfolio {
-  position: relative;
-}
 .style-square {
   background-color: #fff;
   background-size: 45vw 55vh;
@@ -511,30 +508,38 @@ left: 38px;
 .style-square:hover {
   opacity: 0.3;
 }
+.flex-upsquares {
+  display: flex; 
+  justify-content: space-around;
+  margin: 3vw 0 0; 
+  position: relative;
+}
+.flex-downsquares {
+  display: flex; 
+  margin: 5vw 0 3vw 2.6vw;
+  position: relative;
+}
 .style-text {
   color: #fff;
   font-size: 20px;
   line-height: 1.25;
   position: absolute;
 }
-.left-squares {
-  position: absolute;
-  right: 50%;
-  margin-right: 2.5vh;
-}
-.right-squares {
-  left: 50%;
-  position: absolute;
-  margin-left: 2.5vh;
-}
 .topleft-square {
   background-image: url(/images/css-website-portfolio.png);
-  margin-bottom: 5vh;
 }
 .topleft-text {
   max-width: 35vw;
   left: 8%;
   top: 32%;
+}
+.topright-square {
+  background-image: url(/images/html-website-portfolio.png);
+}
+.topright-text {
+  left: 71%;
+  top: 42%;
+  max-width: 25vw;
 }
 .bottomleft-square {
   background-image: url(/images/git-website-portfolio.png);
@@ -543,29 +548,6 @@ left: 38px;
   left: 22%;
   bottom: 17%;
   max-width: 25vw;
-}
-.topright-square {
-  background-image: url(/images/html-website-portfolio.png);
-  margin-bottom: 5vh;
-}
-.topright-text {
-  left: 71%;
-  top: 42%;
-  max-width: 25vw;
-}
-.bottomright-square {
-  position: relative;
-}
-.bottomright-text {
-  bottom: 50%;
-  color: #000;
-  font-size: 26px;
-  font-weight: bold;
-  right: 50%;
-  transform: translate(50%,50%);
-}
-.bottomright-square:hover {
-  opacity: 1;
 }
 
 /* SOCIAL STYLES */
@@ -744,7 +726,6 @@ left: 38px;
   font-size: 28px;
   margin-left: 20px;
 }
-
 
   /* HERO STYLES */ 
   .home-hero {
@@ -953,13 +934,26 @@ left: 38px;
     padding-top: 17vh;
     text-align: center;
   }
+  .flex-upsquares {
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex; 
+    flex-direction: column;
+    /* margin: 0 0 5vh 0; */
+    height: 130vh; 
+  }
+  .flex-downsquares {
+    align-items: center;
+    display: flex; 
+    flex-direction: column;
+    margin: 0 0 5vh 0; 
+  }
   .style-square {
     background-color: #fff;
     background-size: 80vw 55vh;
     border-radius: 2vh;
     height: 55vh;
     width: 80vw;
-    margin: 0 auto 5vh;
     opacity: 0.9;
   }
   .style-square:hover {
@@ -971,36 +965,28 @@ left: 38px;
     position: absolute;
     z-index: 60;
   }
-  .left-squares {
-    position: static;
-    margin: 0; 
-  }
-  .right-squares {
-    position: static; 
-    margin: 0; 
-  }
   .topleft-text {
     left: 14%;
     max-width: 70vw;
-    top: 21%;
+    top: 22.5%;
   }
   .bottomleft-square {
     background-color: #fff;
     background-size: cover;
   }
+  .topright-text {
+    left: 45%;
+    top: 58%;
+    max-width: 50vw;
+  }
   .bottomleft-text {
     color: #fff; 
     font-size: 15px;
     left: 14%;
-    top: 61%;
+    top: 89%;
     max-width: 60vw;
   }
-  .topright-text {
-    left: 45%;
-    top: 85%;
-    max-width: 50vw;
-  }
-
+  
   /* INTERESTS STYLES */ 
   .interests-container {
     overflow: hidden;
