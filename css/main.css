@@ -984,10 +984,10 @@ left: 38px;
     opacity: 0.8;
   }
   .topleft-text {
-    color: #fff; 
+    color: #50C8F0; 
     left: 44%;
     max-width: 44vw;
-    top: 28%;
+    top: 30.8%;
   }
   .topright-text {
     left: 20%;
@@ -995,7 +995,7 @@ left: 38px;
     max-width: 60vw;
   }
   .bottomleft-text {
-    color: #50C8F0; 
+    color: #fff; 
     font-size: 15px;
     left: 20%;
     top: 70%;
