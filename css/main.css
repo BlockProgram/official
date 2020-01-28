@@ -536,7 +536,7 @@ left: 38px;
 .topleft-text { 
   max-width: 25vw;
   left: 22%;
-  top: 49%;
+    top: 49%;
 }
 .topright-square {
   background-image: url(/images/css-website-portfolio.png);
@@ -954,7 +954,7 @@ left: 38px;
     justify-content: space-evenly;
     display: flex; 
     flex-direction: column;
-    /* margin: 0 0 5vh 0; */
+
     height: 130vh; 
   }
   .flex-downsquares {
@@ -981,24 +981,30 @@ left: 38px;
     z-index: 60;
   }
   .topleft-text {
-    left: 14%;
-    max-width: 70vw;
-    top: 22.5%;
+    left: 44%;
+    max-width: 44vw;
+    top: 30.8%;
   }
   .bottomleft-square {
     background-color: #fff;
-    background-size: cover;
+    background-size: initial;
   }
   .topright-text {
-    left: 45%;
-    top: 58%;
-    max-width: 50vw;
+    left: 20%;
+    top: 40%;
+    max-width: 60vw;
   }
   .bottomleft-text {
     color: #fff; 
     font-size: 15px;
-    left: 14%;
-    top: 89%;
+    left: 20%;
+    top: 70%;
+    max-width: 60vw;
+  }
+  .bottomright-text {
+    font-size: 15px;
+    left: 25%;
+    bottom: 10%;
     max-width: 60vw;
   }
   
