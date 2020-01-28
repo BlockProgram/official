@@ -980,14 +980,14 @@ left: 38px;
     position: absolute;
     z-index: 60;
   }
+  .topleft-square {
+    opacity: 0.8;
+  }
   .topleft-text {
+    color: #fff; 
     left: 44%;
     max-width: 44vw;
-    top: 30.8%;
-  }
-  .bottomleft-square {
-    background-color: #fff;
-    background-size: initial;
+    top: 28%;
   }
   .topright-text {
     left: 20%;
@@ -995,7 +995,7 @@ left: 38px;
     max-width: 60vw;
   }
   .bottomleft-text {
-    color: #fff; 
+    color: #50C8F0; 
     font-size: 15px;
     left: 20%;
     top: 70%;
@@ -1003,9 +1003,9 @@ left: 38px;
   }
   .bottomright-text {
     font-size: 15px;
-    left: 25%;
+    left: 30%;
     bottom: 10%;
-    max-width: 60vw;
+    max-width: 50vw;
   }
   
   /* INTERESTS STYLES */ 
