@@ -390,6 +390,10 @@ left: -30px;
   position: absolute;
   left: 675px;
 }
+.item4-roadmap .item-date {
+  position: relative;
+  left: 15px; 
+  }
 .item4-roadmap .item-text-above {
 position: relative;
 top: -228px;
@@ -516,7 +520,8 @@ left: 38px;
 }
 .flex-downsquares {
   display: flex; 
-  margin: 5vw 0 3vw 2.6vw;
+  justify-content: space-around;
+  margin: 4vw 0; 
   position: relative;
 }
 .style-text {
@@ -526,29 +531,38 @@ left: 38px;
   position: absolute;
 }
 .topleft-square {
-  background-image: url(/images/css-website-portfolio.png);
+  background-image: url(/images/dashboard.png);
 }
-.topleft-text {
-  max-width: 35vw;
-  left: 8%;
-  top: 30%;
+.topleft-text { 
+  max-width: 25vw;
+  left: 22%;
+  top: 49%;
 }
 .topright-square {
-  background-image: url(/images/html-website-portfolio.png);
+  background-image: url(/images/css-website-portfolio.png);
 }
 .topright-text {
-  left: 72%;
-  top: 42%;
-  max-width: 25vw;
+  left: 54%;
+  top: 30%;
+  max-width: 45vw;
 }
 .bottomleft-square {
-  background-image: url(/images/git-website-portfolio.png);
+  background-image: url(/images/html-website-portfolio.png);
   background-size: cover;
 }
 .bottomleft-text {
-  left: 22%;
-  bottom: 15%;
-  max-width: 25vw;
+  left: 26%;
+  bottom: 12%;
+  max-width: 20vw;
+}
+.bottomright-square {
+  background-image: url(/images/git-website-portfolio.png);
+  background-size: cover;
+}
+.bottomright-text {
+  left: 71%;
+  bottom: 12%;
+  max-width: 28vw;
 }
 
 /* SOCIAL STYLES */
