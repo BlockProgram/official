@@ -536,7 +536,7 @@ left: 38px;
 .topleft-text { 
   max-width: 25vw;
   left: 22%;
-    top: 49%;
+  top: 50%;
 }
 .topright-square {
   background-image: url(/images/css-website-portfolio.png);
