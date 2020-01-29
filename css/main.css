@@ -985,9 +985,9 @@ left: 38px;
   }
   .topleft-text {
     color: #50C8F0; 
-    left: 44%;
+    left: 45.7%;
     max-width: 44vw;
-    top: 30.8%;
+    top: 29.5%;
   }
   .topright-text {
     left: 20%;
@@ -995,15 +995,14 @@ left: 38px;
     max-width: 60vw;
   }
   .bottomleft-text {
-    color: #fff; 
     font-size: 15px;
-    left: 20%;
-    top: 70%;
-    max-width: 60vw;
+    left: 44%;
+    top: 68%;
+    max-width: 45vw;
   }
   .bottomright-text {
     font-size: 15px;
-    left: 30%;
+    left: 44%;
     bottom: 10%;
     max-width: 50vw;
   }
