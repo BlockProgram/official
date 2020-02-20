@@ -400,11 +400,11 @@ left: -30px;
   }
 .item4-roadmap .item-text-above {
 position: relative;
-top: -228px;
-left: -30px;
+top: -350px;
+left: -25px;
 }
 .item4-roadmap .item-text {
-max-width: 210px;
+max-width: 230px;
 }
 .item5-roadmap {
   position: absolute;
